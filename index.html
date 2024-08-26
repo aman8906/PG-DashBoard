@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard - Charts1</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="aside">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul class="nav">
+              <li class="nav-item active"><a href="#"><img src="Dashboard.png" alt="Dashboard"><span>Dashboard</span></a></li>
+                <li class="nav-item "><a href="#"><img src="profile.png" alt="Profile"><span> Profile</span></a></li>
+                <li class="nav-item"><a href="#"><img src="My property.png" alt="Property"><span>My Properties</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Booking.png" alt="Booking"><span>Bookings</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Check in.png" alt="Check in"><span>Check In</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Check out.png" alt="Check Out"><span>Check Out</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Payments.png" alt="Payments"><span>Payments</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Expenses.png" alt="Expenses"><span>Expenses</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Availibility.png" alt="Availability"><span>Availability</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Reports.png" alt="Reports"><span>Reports</span></a></li>
+                <li class="nav-item"><a href="#"><img src=" Notice.png " alt="Notice"><span>Notices</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Complaint.png" alt="Complaints"><span>Complaints</span> <span class="badge"><img src="Circle.png" alt="circle"></span></a></li>
+                <li class="nav-item"><a href="#"><img src="Approch.png" alt="Tenant Approch"><span>Tenant Approch</span> <span class="badge"><img src="Circle.png" alt="circle"></span></a></li>
+                <li class="nav-item"><a href="#"><img src="Support.png" alt="Support"><span>Support</span></a></li>
+                <li class="nav-item"><a href="#"><img src="Change Property.png" alt="Change Property"><span>Change Property</span></a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <span>
+                    <select class="border">
+                    <option>Smart PG</option>
+                    </select>
+                </span>
+                <span>PG112256</span>
+                <span>License Validity - 200 Days</span>
+                <span class="user">Ankit Kumar
+                    <img src="User-profile.png" alt="User Profile">
+                </span>
+            </div>
+            <div class="cards">
+                <div class="card1">Total Beds
+                    <p>100</p>
+                </div>
+                <div class="card2">Occupied
+                    <p >80</p>
+                </div>
+                <div class="card3"><a href="#">Vacant</a>
+                    <p>20</p>
+                </div>
+                <div class="complaints">
+                    <h2>Open Complaints</h2>
+                    <div class="complaint1">
+                        <img src="User1.png" alt="User 1" class="avatar">
+                        <span>Kathryn Murphy<br>
+                        <p>In eu do do cilum lorem excitation escolar.</p></span>
+                    </div>
+                    <div class="complaint2">
+                        <img src="User2.png" alt="User 1" class="avatar">
+                        <span>James Harrid<br>
+                        <p>Deserunt minim Indicunt cillum nostrudo voluptate excepteur.</p></span>
+                    </div>
+                    <div class="complaint3">
+                        <img src="User3.png" alt="User 1" class="avatar">
+                        <span>Elan Melon<br>
+                        <p>Mollit consectetur occaecat ad adiphicing ex deserunt fugiat.</p></span>
+                    </div>
+                    <div class="complaint4">
+                        <img src="User4.png" alt="User 1" class="avatar">
+                        <span>Min Smith<br>
+                           <p>Cupidatat euismod tempor labore amet amet proident dul.</p></span>
+                    </div>
+                    <div class="complaint5">
+                        <img src="User5.png" alt="User 1" class="avatar">
+                        <span>James Doe<br>
+                        <p>Duis excepteur enim enim dolore aliqua officia ni laboret ipsum.</p></span>
+                    </div>
+                </div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <h2>Rent Status</h2>
+                    <canvas id="rentStatusChart"></canvas>
+                </div>
+                <div class="chart2">
+                   <h2>Recent Expenses</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Status</th>
+                                <th>Category</th>
+                                <th>Type</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="status unpaid">Unpaid</span>
+                                </td>
+                                <td>Electricity</td>
+                                <td>Utility</td>
+                                <td>02/08/2023</td>
+                                <td>$500</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="status unpaid">Unpaid</span>
+                                </td>
+                                <td>Kitchen Material</td>
+                                <td>Grocery</td>
+                                <td>01/09/2023</td>
+                                <td>$200</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="status paid">Paid</span>
+                                </td>
+                                <td>Salary May 2023</td>
+                                <td>Misc</td>
+                                <td>30/05/2023</td>
+                                <td>$2000</td>
+                            </tr>
+                        </tbody>
+                        </div>
+                
+                    </table>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Profitability</h2>
+                <p>Last 3 Months</p>
+                <canvas id="profitabilityChart"></canvas>
+                    </div>
+            </div>
+        
+       <script src="scripts.js"></script>
+    </body>
+</html>
+
+
+
+    
+
+        
+    

@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.aside {
+    width: 230px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+
+.logo img {
+    width: 220px;
+    height: 120px;
+    margin: 10px ;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0px;
+    width: 230px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-item a {
+    display: block;
+    padding: 5px ;
+    color: #cdcaca;
+    text-decoration:none;
+}
+.nav img{
+    height: 25px;
+    width: 25px;
+}
+
+.nav-item a:hover,
+.nav-item.active a {
+    background-color: #cc0000;
+    width: 220px;
+}
+.nav-item{
+    width: 230px;
+    padding: 1px;
+    align-items: center;
+    height: 45px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 10px;
+    background-color:white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header .border{
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header .user {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.header .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: none;
+}
+
+.cards {
+    
+    margin: 10px;
+    display: flex;
+    
+}
+
+.card1 {
+    background-color: #f0e7e7;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: 100px;
+    height: 80px;
+}
+.card2{
+    background-color: #e3d1d1;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    height: 80px;
+    width: 100px;
+}
+.card3{
+    background-color: #e8e3ee;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    text-align:left;
+    height: 80px;
+    width: 100px;
+}
+
+.complaints {
+    background-color:white;
+    height: 1px;
+    padding: 5px;
+    
+    
+
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 10px;
+}
+.complaint1 {
+    padding: 0px;
+    margin: 20px;
+    background-color: #f6f1f1;
+    height: 70px;
+    width: 300px;
+    display: flex;
+}
+
+.complaint2 {
+    margin:20px;
+    background-color:#f6f1f1; 
+    height: 70px;
+    width: 300px;
+    display: flex;
+}
+.complaint3 {
+    margin:20px;
+    background-color:#f6f1f1; 
+    height: 70px;
+    width: 300px;
+    display: flex;
+}
+.complaint4 {
+    margin:20px;
+    background-color:#f6f1f1; 
+    height: 70px;
+    width: 300px;
+    display: flex;
+}
+.complaint5  {
+    margin:20px;
+    background-color:#f6f1f1; 
+    height: 70px;
+    width: 300px;
+ 
+    display: flex;
+}
+.complaints p{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.complaints span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.charts{
+    height: 400px;
+    
+}
+
+.chart1{
+    margin-left: 20px;
+    height: 400px;
+    width: 650px;
+    padding-top: 10px;
+}
+.chart2{
+    margin-left: 40px;
+    bottom: 800px;
+    height: 300px;
+    width: 300px;
+    
+}
+.chart-list td{
+    color: #35d24d;
+
+}
+.section{
+    height: 220px;
+    width: 280px;
+    padding-left: 750px;
+}
+table {
+    width: 650px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+ th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+th {
+    background-color: #f2f2ff;
+    
+}
+.status{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.unpaid{
+    background-color: red;
+
+}
+.paid{
+    background-color:green;
+    
+}
